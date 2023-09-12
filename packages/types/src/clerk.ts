@@ -553,7 +553,6 @@ export type SignUpInitialValues = {
   firstName?: string;
   lastName?: string;
   username?: string;
-  web3WalletAddress?: string;
 };
 
 export type RedirectOptions = {
