@@ -1,5 +1,16 @@
 # Change Log
 
+## 0.22.1
+
+### Patch Changes
+
+- Use buildUrlWithAuth for all links and Clerk-triggered navigations ([#1676](https://github.com/clerkinc/javascript/pull/1676)) by [@desiprisg](https://github.com/desiprisg)
+
+- Fix: swr devtools breaks applications with clerk ([#1694](https://github.com/clerkinc/javascript/pull/1694)) by [@panteliselef](https://github.com/panteliselef)
+
+  - Force disable swr devtools for organization hooks
+  - Let the swr devtool to pick the correct react version
+
 ## 0.22.0
 
 ### Minor Changes
